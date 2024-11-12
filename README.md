@@ -1,7 +1,7 @@
 
 # kubernetes services port forwarding
 
-kubectl port-forward  svc/mariadb-svc 32969:3306 &
+`kubectl port-forward  svc/mariadb-svc 32969:3306 &`
 
 # go-maria-connector
 
